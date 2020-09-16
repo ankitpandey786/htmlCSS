@@ -1,0 +1,33 @@
+.first{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+.first ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.first li {
+	display: inline-block;
+	margin: 10px;
+	font-size: 25px;
+	font-family: cursive;
+	color: pink;
+	text-decoration: none;
+	text-shadow: 2px 1px;
+}
+.first li:hover{
+	background-color: lightblue;
+	border-bottom-left-radius: 10px;  
+}
+.first li a{
+	text-decoration: none;
+	color: black;
+}
+.container-fluid{
+	background-color: pink;
+	margin-top: 50px;
+}

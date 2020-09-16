@@ -1,0 +1,45 @@
+.first{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+.first ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.first li {
+	display: inline-block;
+	margin: 10px;
+	font-size: 25px;
+	font-family: cursive;
+	color: pink;
+	text-decoration: none;
+	text-shadow: 2px 1px;
+}
+.first li:hover{
+	background-color: lightblue;
+	border-bottom-left-radius: 10px;  
+}
+.first li a{
+	text-decoration: none;
+	color: black;
+}
+.about{
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+}
+.special{
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+}
+#head{
+	font-size: 20px;
+}
+#mission{
+	font-size: 20px;
+}

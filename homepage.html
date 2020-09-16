@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bhukkad.com</title>
+	<link rel="stylesheet" type="text/css" href="homecss.css">
+	<link rel="javascript" type="text/javascript" href="homescript.js">
+</head>
+<body style="background-color: #F2F3F4">
+	<div class="first">
+		<img src="logo.jpg" alt="logo" width="100px" height="50">
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="#">contact us</a></li>
+			<li><a href="#">order</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</div>
+	<div class="slider">
+     <img class="mySlides" src="slide1.jpg" style="width:100%">
+     <img class="mySlides" src="slide2.jpg" style="width:100%">
+     <img class="mySlides" src="slide3.jpg" style="width:100%">
+     
+
+     <button class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
+     <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
+   </div>
+   <script>
+   var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+   </script>
+ <section class="food_variety">
+ 	<div class="menu">
+ 		<h1 id="lis">FOOD Items</h1>
+ 		<ul class="list">
+ 			<li><a href="#North0">North Indian</a></li>
+ 			<li><a href="#South0">South Indian</a></li>
+ 			<li><a href="#">Chinese</a></li>
+ 			<li><a href="#">Dessert</a></li>
+ 			<li><a href="#">Non Veg</a></li>
+ 			<li><a href="#">Papdi</a></li>
+ 		</ul>
+ 	</div>
+ </section>
+ <section class="Itemsinvariety">
+ 	<h1 style="font-size: 35px" id="North0">North Indian</h1>
+ 	<div class="North" >
+ 		
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="panner.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Sahii Paneer
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart" onclick="display()">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_2">
+ 			<div class="card_wrapper2">
+ 				<div class="image_wrapper2">
+ 					<img src="kadhai.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf2">
+ 					<div class="clamp2">	
+ 						<div class="des2">
+ 						   Kadhai Paneer
+ 					   </div>
+ 					   <div class="veg2">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer2">
+ 					     <div class="footerprice2">
+ 					     	<div class="offerprice2">
+ 					     		<div class="price_val2">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price2">
+ 					     		<div class="mrp2">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart2">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_3">
+ 			<div class="card_wrapper3">
+ 				<div class="image_wrapper3">
+ 					<img src="matar.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf3">
+ 					<div class="clamp3">	
+ 						<div class="des3">
+ 						   Matar Paneer
+ 					   </div>
+ 					   <div class="veg3">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer3">
+ 					     <div class="footerprice3">
+ 					     	<div class="offerprice3">
+ 					     		<div class="price_val3">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price3">
+ 					     		<div class="mrp3">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart3">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="North1">
+ 			
+ 			<div class="item_4">
+ 			   <div class="card_wrapper4">
+ 				   <div class="image_wrapper4">
+ 					   <img src="mushroom.jpg" alt="panner" width="280px">
+ 				    </div>
+ 				<div class="bottomhalf4">
+ 					<div class="clamp4">	
+ 						<div class="des4">
+ 						   Mushroom
+ 					   </div>
+ 					   <div class="veg4">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer4">
+ 					     <div class="footerprice4">
+ 					     	<div class="offerprice4">
+ 					     		<div class="price_val4">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price4">
+ 					     		<div class="mrp4">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart4">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_4">
+ 			<div class="card_wrapper4">
+ 				<div class="image_wrapper4">
+ 					<img src="dum.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf4">
+ 					<div class="clamp4">	
+ 						<div class="des4">
+ 						   Dum Aloo
+ 					   </div>
+ 					   <div class="veg4">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer4">
+ 					     <div class="footerprice4">
+ 					     	<div class="offerprice4">
+ 					     		<div class="price_val4">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price4">
+ 					     		<div class="mrp4">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart4">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_4">
+ 			<div class="card_wrapper4">
+ 				<div class="image_wrapper4">
+ 					<img src="pannerdopyaja.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf4">
+ 					<div class="clamp4">	
+ 						<div class="des4">
+ 						   Panner Do Payaja
+ 					   </div>
+ 					   <div class="veg4">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer4">
+ 					     <div class="footerprice4">
+ 					     	<div class="offerprice4">
+ 					     		<div class="price_val4">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price4">
+ 					     		<div class="mrp4">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart4">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>	
+ 	</div>
+ 	<h2 class="South">South Indian</h2>
+ 	<div class="south" id="South0">
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="dosa.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Dosa
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="idli.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Idli
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 75</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 100</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="vada.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Vada
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 100</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		
+ 	</div>
+ 	<div class="south1">
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="puttu.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Puttu
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 100</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="rasam.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Rasam Rice
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		<div class="item_1">
+ 			<div class="card_wrapper">
+ 				<div class="image_wrapper">
+ 					<img src="pazham.jpg" alt="panner" width="280px">
+ 				</div>
+ 				<div class="bottomhalf">
+ 					<div class="clamp">	
+ 						<div class="des1">
+ 						   Pazham Pori
+ 					   </div>
+ 					   <div class="veg">
+ 					   	<img src="https://static.cure.fit/assets/images/veg.svg" style="position: relative; top: -2px;">
+ 					   </div>
+ 					   <div class="footer">
+ 					     <div class="footerprice">
+ 					     	<div class="offerprice">
+ 					     		<div class="price_val">&#x20b9; 150</div>
+ 					     	</div>
+ 					     	<div class="price">
+ 					     		<div class="mrp">&#x20b9; 200</div>
+ 					     	</div>
+ 					     	
+ 					     </div>
+ 					     <div class="addcart">
+ 					     	<button class="buttonaddcart">
+ 					     		<div><a href="#">ADD</a></div>
+ 					     	</button>
+ 					     </div>
+ 					   </div>
+
+ 					</div>
+ 					
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 		
+ 	</div>
+
+ 	
+ </section>
+	
+</body>
+</html>

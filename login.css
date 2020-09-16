@@ -1,0 +1,99 @@
+.first{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+.first ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.first li {
+	display: inline-block;
+	margin: 10px;
+	font-size: 25px;
+	font-family: cursive;
+	color: pink;
+	text-decoration: none;
+	text-shadow: 2px 1px;
+}
+.first li:hover{
+	background-color: lightblue;
+	border-bottom-left-radius: 10px;  
+}
+.first li a{
+	text-decoration: none;
+	color: black;
+}
+.heading{
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 45%;
+	font-family: cursive;
+}
+.form{
+	margin-left: 30%;
+	margin-right: 20%;
+	background-color: pi;	
+	margin-top: 20px;
+	padding-bottom: 25px;
+
+}
+.form label{
+	font-size: 20px;
+	font-family: cursive;
+	color: black;
+
+}
+.form input{
+	border-color: lightblue;
+
+}
+.log{
+	border: none;
+	border-radius: 500px;
+	margin-top: 70px;
+	background-color: grey;
+	margin-left: 32%;
+	margin-right: 32%;
+
+}
+.log img{
+	margin-left: 35%;
+	margin-top: 40px;
+}
+#logbutton{
+	background-color: lightblue;
+	border: none;
+	display: inline-block;
+	font-size: 20px;
+	padding: 6px 20px;
+	font-family: cursive;
+	border-radius: 6px;
+	transition-duration: 0.4s;
+}
+#logbutton:hover{
+	background-color: white;
+	color: black;
+	border-color: black;
+}
+.sign{
+	float: right;
+}
+.sign button{
+	color: black;
+	background-color: pink;
+	border: none;
+	display: inline-block;
+	font-size: 20px;
+	padding: 6px 20px;
+	border-radius: 6px;
+	font-family: verdana;
+	transition-duration: 0.6s;
+	background-color: pink;
+}
+.sign button:hover{
+	background-color: lightblue;
+}
